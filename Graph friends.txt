@@ -1,0 +1,8 @@
+"Anja" : ["Ben","Dirk","Ed"]
+"Ben" : ["Anja","Chris","Gerrit"]
+"Chris" : ["Dirk", "Ed", "Harry"]
+"Dirk" : ["Ed", "Fred"]
+"Ed" : ["Harry"]
+"Fred" : ["Harry"]
+"Harry" : []
+"Gerrit" : ["Ben","Chris"]
