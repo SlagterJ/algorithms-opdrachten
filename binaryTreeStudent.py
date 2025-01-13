@@ -115,12 +115,6 @@ class BinarySearchTree(object):
             self._postOrder(wijzer.getRight())
             print(wijzer.getData(), end=' ')
         
-    def zoekData(self, data):
-        pass
-    
-    def zoekDataRecursief(self, data):
-        pass
-
     def printBoom(self):
         printRecursief(self.__root)
         print("\npre order")
@@ -129,6 +123,12 @@ class BinarySearchTree(object):
         self.inOrder()
         print("\npost order")
         self.postOrder()
+        
+    def zoekData(self, data):
+        pass
+    
+    def zoekDataRecursief(self, data):
+        pass
   
 # main program
 # hier kunnen de methoden getest worden
